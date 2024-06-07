@@ -40,6 +40,11 @@
             height: 20vh; /* Define a altura da imagem como 20% da altura da tela */
             max-width: 50%; /* Garante que a imagem não ultrapasse a largura da tela */
         }
+        .portfolio {
+            display: flex; /* Para manter as imagens lado a lado */
+            flex-wrap: wrap; /* Permitir que as imagens quebrem para a próxima linha */
+            justify-content: center; /* Centralizar as imagens horizontalmente */
+        }
         .portfolio img {
             width: auto; /* Garante que a largura da imagem seja ajustada automaticamente */
             height: 30vh; /* Define a altura da imagem como 20% da altura da tela */
@@ -96,6 +101,7 @@
     </section>
     <section id="portfolio" class="portfolio">
         <h2>Portfólio</h2>
+        <p>Aqui estão algumas das minhas fotos de surf:</p>
         <img src="images/Photo_1.jpg" alt="Surf Photo 1">
         <p class="caption">Ofir</p>
         <img src="images/Photo_2.jpg" alt="Surf Photo 2">
