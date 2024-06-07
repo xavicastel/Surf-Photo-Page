@@ -51,14 +51,10 @@
             margin: 20px 0;
         }
         .contact form {
-            display: flex;
-            flex-direction: column;
+            display: none; /* Remove o formulário de contato */
         }
-        .contact form input, .contact form textarea {
-            margin-bottom: 10px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
+        .contact p {
+            margin-bottom: 10px; /* Adiciona espaço entre os parágrafos */
         }
         footer {
             background-color: #005f99;
@@ -91,9 +87,13 @@
     </section>
     <section id="portfolio" class="portfolio">
         <h2>Portfólio</h2>
-        <img src="images/Photo_1.jpg" alt="Surf Photo 1">
-        <img src="images/Photo_2.jpg" alt="Surf Photo 2">
-        <img src="images/Photo_3.jpg" alt="Surf Photo 3">
+        <p>Aqui estão algumas das minhas fotos de surf mais recentes:</p>
+        <p>
+            <img src="images/Photo_1.jpg" alt="Surf Photo 1">
+            <img src="images/Photo_2.jpg" alt="Surf Photo 2">
+            <img src="images/Photo_3.jpg" alt="Surf Photo 3">
+        </p>
+        <p>Legenda das imagens: Ofir, Leça, Matosinhos</p>
     </section>
     <section id="services" class="service">
         <h2>Serviços</h2>
@@ -107,14 +107,7 @@
     </section>
     <section id="contact" class="contact">
         <h2>Contato</h2>
-        <p>Entre em contato para mais informações ou para agendar uma sessão fotográfica.</p>
-        <form action="mailto:castello.xavier@gmail.com" method="post" enctype="text/plain">
-            <input type="text" name="name" placeholder="Seu Nome">
-            <input type="email" name="email" placeholder="Seu Email">
-            <textarea name="message" placeholder="Sua Mensagem"></textarea>
-            <button type="submit">Enviar</button>
-        </form>
-        <p>Siga-me nas redes sociais:</p>
+        <p>Entre em contato numa das redes sociais para mais informações ou para agendar uma sessão fotográfica.</p>
         <div class="social-icons">
             <a href="https://www.surfmappers.com/xaviercastello" target="_blank"><img src="images/surfmappers_logo_ss.png" alt="Surf Mappers"></a>
             &nbsp;&nbsp;&nbsp; <!-- Espaço entre os ícones -->
