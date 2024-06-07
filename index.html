@@ -36,16 +36,15 @@
             padding: 20px;
         }
         #home img {
-            height: calc(20% - 20px); /* Um terço da altura da tela com margens entre as imagens */
-            margin: 10px;
-            max-height: 100%; /* Garante que a imagem não ultrapasse a altura da tela */
-            width: auto; /* Mantém a proporção da imagem */
+            width: auto; /* Garante que a largura da imagem seja ajustada automaticamente */
+            height: 20vh; /* Define a altura da imagem como 20% da altura da tela */
+            max-width: 50%; /* Garante que a imagem não ultrapasse a largura da tela */
         }
         .portfolio img {
-            height: calc(20% - 20px); /* 20% for each image with 20px spacing */
+            width: calc(20% - 20px); /* 20% da largura da tela com margens entre as imagens */
             margin: 10px;
-            max-height: 50%
-            width: auto; /* Ensure images maintain aspect ratio */
+            max-height: 20vh; /* Define a altura máxima da imagem como 20% da altura da tela */
+            height: auto; /* Garante que a altura da imagem seja ajustada automaticamente */
         }
         .service, .contact {
             background-color: #e6f2ff;
