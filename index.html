@@ -35,9 +35,16 @@
         section {
             padding: 20px;
         }
+        #home img {
+            width: calc(33.33% - 20px); /* Um terço da largura da tela com margens entre as imagens */
+            margin: 10px;
+            max-width: 100%; /* Garante que a imagem não ultrapasse a largura da tela */
+            height: auto; /* Mantém a proporção da imagem */
+        }
         .portfolio img {
-            width: 100%;
-            height: auto;
+            max-width: calc(33.33% - 20px); /* 33.33% for each image with 20px spacing */
+            margin: 10px;
+            height: auto; /* Ensure images maintain aspect ratio */
         }
         .service, .contact {
             background-color: #e6f2ff;
@@ -77,11 +84,11 @@
     <section id="home">
         <h2>Bem-vindo ao Meu Site</h2>
         <p>Sou um fotógrafo especializado em capturar os momentos mais emocionantes do surf.</p>
-        <img src="surfing-photo.jpg" alt="Surfing">
+        <img src="images/xavi_surfing.jpg" alt="Surfing">
     </section>
     <section id="about">
         <h2>Sobre Mim</h2>
-        <p>Olá! Meu nome é [Seu Nome]. Tenho [X] anos de experiência em fotografia de surf, apaixonado por capturar a beleza das ondas e a adrenalina dos surfistas.</p>
+        <p>Olá! Meu nome é Xavi. Tenho 20 anos de experiência em surf, e recentemente comecei a registar a beleza das ondas e a adrenalina dos surfistas.</p>
     </section>
     <section id="portfolio" class="portfolio">
         <h2>Portfólio</h2>
@@ -91,12 +98,7 @@
     </section>
     <section id="services" class="service">
         <h2>Serviços</h2>
-        <p>Ofereço uma variedade de serviços de fotografia de surf, incluindo:</p>
-        <ul>
-            <li>Sessões fotográficas personalizadas</li>
-            <li>Fotografia de competições</li>
-            <li>Álbuns e impressões</li>
-        </ul>
+        <p>Ofereço sessões fotográficas de surf, individuais ou em grupo. Locais a combinar, na região Norte nas redondezas entre as praias do Espinho, Matosinhos, Leça da Palmeira e outras até Azurara.</p>
     </section>
     <section id="contact" class="contact">
         <h2>Contato</h2>
