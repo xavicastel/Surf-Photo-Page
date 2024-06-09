@@ -39,23 +39,22 @@
         }
         #home img {
             width: 100%;
-            max-width: 50%;
+            max-width: 25%;
             height: auto;
-        }
-        .portfolio img {
-            width: 100%;
-            max-width: 30%;
-            height: auto;
-            margin: 10px; 
         }
         .portfolio .image-container {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
         }
-        .portfolio .caption {
+        .portfolio .image-item {
             text-align: center;
-            margin-top: -10px;
+            margin: 10px;
+        }
+        .portfolio img {
+            width: 100%;
+            max-width: 300px; /* Ajuste o valor conforme necessário */
+            height: auto;
         }
         .service, .contact {
             background-color: #e6f2ff;
@@ -93,7 +92,7 @@
 <body>
     <header>
         <h1>Fotógrafo de Surf</h1>
-        <p>Capturando a essência das ondas</p>
+        <p>Capturando surfistas e ondas</p>
     </header>
     <nav>
         <a href="#home">Home</a>
@@ -115,15 +114,15 @@
         <h2>Portfólio</h2>
         <p>Aqui estão algumas das minhas fotos de surf mais recentes:</p>
         <div class="image-container">
-            <div>
+            <div class="image-item">
                 <img src="images/Photo_1.jpg" alt="Surf Photo 1">
                 <div class="caption">Ofir</div>
             </div>
-            <div>
+            <div class="image-item">
                 <img src="images/Photo_2.jpg" alt="Surf Photo 2">
                 <div class="caption">Leça</div>
             </div>
-            <div>
+            <div class="image-item">
                 <img src="images/Photo_3.jpg" alt="Surf Photo 3">
                 <div class="caption">Matosinhos</div>
             </div>
